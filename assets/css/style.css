@@ -31,6 +31,12 @@ body{
   min-width: 1400px;
 }
 
+hr{
+  width: 96%;
+  margin: auto;
+  color: gray;
+}
+
 /* HEADER */
 header{
   height: 550px;
@@ -42,7 +48,7 @@ header{
   background-image: url(../img/background-header.png);
   background-size: 1000px;
   background-repeat: no-repeat;
-  background-position: 115% 100%;
+  background-position: 105% 100%;
 }
 
 .header-nav{
@@ -131,7 +137,7 @@ header{
 .row{
   position: relative;
   background-color: #D3D3D3;
-  height: 130px;
+  height: 150px;
   text-align: center;
 }
 
@@ -144,17 +150,44 @@ section .row-container{
 
 .row-title{
   color: black;
-  font-size: 20px;
-  font-weight: bold;
-  padding-bottom: 5px;
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 
 .row-text{
   color: #828282;
-  font-size: 16px;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 /* COLUMNS */
 .column{
-  width: 30%;
+  position: relative;
+  width: 29%;
+  height: 450px;
+  margin: 50px 2%;
+  text-align: center;
+}
+
+.column > img{
+  height: 200px;
+}
+
+.column-title{
+  color: #7CBB04;
+  font-size: 25px;
+  margin: 20px 0;
+  max-width: 400px;
+  min-width: 365px;
+}
+
+.computer .column-title{
+  margin-bottom: 50px;
+}
+
+.column-text{
+  font-size: 17px;
+  font-weight: 500;
+  padding-top: 20px;
+  border-top: 1px solid gray;
 }
