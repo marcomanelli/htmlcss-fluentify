@@ -263,3 +263,19 @@ section .row-container{
 .select-choice{
   padding-right: 100px;
 }
+
+/* HELP */
+.help{
+  position: fixed;
+  background-color: #7CBB04;
+  bottom: 0;
+  right: 200px;
+  z-index: 999;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 40px;
+  width: 80px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 10px;
+}
