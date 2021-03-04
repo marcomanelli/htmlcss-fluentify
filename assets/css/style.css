@@ -176,7 +176,7 @@ section .row-container{
 .column-title{
   color: #7CBB04;
   font-size: 25px;
-  margin: 20px 0;
+  margin: 20px auto;
   max-width: 400px;
   min-width: 365px;
 }
@@ -185,9 +185,81 @@ section .row-container{
   margin-bottom: 50px;
 }
 
+.column .rule{
+  width: 150px;
+  border-top: 1px solid gray;
+  margin: auto;
+}
+
 .column-text{
   font-size: 17px;
   font-weight: 500;
   padding-top: 20px;
-  border-top: 1px solid gray;
+}
+
+/* MOUNTAIN */
+.mountain-container{
+  margin: 50px 0;
+}
+
+.mountain-container *{
+  padding: 0 3%;
+}
+
+.mountain-title{
+  color: black;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.mountain-text{
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.mountain-contnent a{
+  color: #6390C1;
+  font-weight: 600;
+}
+
+/* FOOTER */
+.footer-container{
+  background-color: #D3D3D3;
+  height: 150px;
+  padding: 0 0 10%;
+  line-height: 150px;
+  vertical-align: middle;
+}
+
+.footer-left{
+  margin-left: 30px;
+  color: black;
+  font-size: 30px;
+  width: 20%;
+}
+
+.footer-right{
+  width: 70%;
+  text-align: right;
+}
+
+.footer-select{
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.stopped{
+  margin-right: 20px;
+}
+
+.select{
+  color: #828282;
+  text-decoration: none;
+  border-bottom: 1px solid #828282;
+}
+
+.select-choice{
+  padding-right: 100px;
 }
