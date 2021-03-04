@@ -227,16 +227,14 @@ section .row-container{
 .footer-container{
   background-color: #D3D3D3;
   height: 150px;
-  padding: 0 0 10%;
   line-height: 150px;
   vertical-align: middle;
 }
 
 .footer-left{
-  margin-left: 30px;
   color: black;
   font-size: 30px;
-  width: 20%;
+  width: 30%;
 }
 
 .footer-right{
